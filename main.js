@@ -10,7 +10,7 @@ start()
 
 async function petsArea() {
 
-  const petsPromise = await fetch("https://learnwebcode.github.io/bootcamp-pet-data/pets.jsonhttps://learnwebcode.github.io/bootcamp-pet-data/pets.json")
+  const petsPromise = await fetch("https://learnwebcode.github.io/bootcamp-pet-data/pets.json")
   const petsData = await petsPromise.json()
 
   console.log(petsData)
@@ -20,3 +20,5 @@ async function petsArea() {
 }
 
 petsArea()
+
+
